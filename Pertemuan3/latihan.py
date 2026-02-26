@@ -5,21 +5,25 @@ class Minuman:
       self.rating = rating
 
     def deskripsi_minuman(self):
-      print(f"minuman favorit ku:{self.nama},asal dari{self.rasa},rating{self.rating}")
+      print(f"minuman favoritku: {self.nama} dengan rasa {self.rasa}, rating {self.rating}")
 
-    def change_minuman(self,new_nama):
+    def change_nama(self,new_nama):
       self.nama = new_nama
-      print ("favorit baru : {new.nama}")
-minum1 = Minuman("SUSU","Manis",8)
-minum2 = Minuman ("matcha","pahit",6)
-minum3 = Minuman ("frappe","seger",9)
+      print (f"favorit baru : {self.nama}")
+minum1 = Minuman("Susu","Manis",8)
+minum2 = Minuman ("Matcha","pahit",6)
+minum3 = Minuman ("Frappe","seger",9)
 print(minum1.nama)
 print(minum2.nama)
 print(minum3.nama)
 
-minum1.change_minuman("latte")
+minum1.deskripsi_minuman() #penambahan method
 
+minum1.change_nama("latte")
 
+#tf is this brotha. is this a code for a minuman class? i dont understand what is this. 
+# ts so ahh 💔💔
+# i hate this code, i dont understand what is this, why is this code so hard to understand
 
 
 
