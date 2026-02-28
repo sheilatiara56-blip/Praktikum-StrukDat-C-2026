@@ -21,9 +21,6 @@ minum1.deskripsi_minuman() #penambahan method
 
 minum1.change_nama("latte")
 
-#tf is this brotha. is this a code for a minuman class? i dont understand what is this. 
-# ts so ahh 💔💔
-# i hate this code, i dont understand what is this, why is this code so hard to understand
 
 
 
